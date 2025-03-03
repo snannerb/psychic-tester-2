@@ -1,0 +1,105 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  color: #00ff00;
+  line-height: 1.6;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+header p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #00cc00;
+}
+
+/* Input styling */
+input {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+/* Hidden elements */
+.hidden {
+  display: none;
+}
+
+/* Result and score styling */
+#result, #score-area {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+footer a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header p {
+    font-size: 12px;
+  }
+
+  button, input {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
