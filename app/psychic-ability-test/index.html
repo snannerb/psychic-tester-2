@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psychic Ability Test</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Psychic Ability Test</h1>
+      <p>Guess the hidden words to test your psychic powers!</p>
+    </header>
+    <main>
+      <button id="start-button">Start Test</button>
+      <div id="test-area" class="hidden">
+        <p>Round <span id="round">1</span> of 5</p>
+        <input type="text" id="guess-input" placeholder="Your guess..." maxlength="20">
+        <button id="submit-button">Submit</button>
+        <p id="result"></p>
+      </div>
+      <div id="score-area" class="hidden">
+        <p>Psychic Score: <span id="score">0</span></p>
+      </div>
+    </main>
+    <footer>
+      <a href="https://pixeloracle.com" target="_blank" rel="noopener noreferrer">Pixel Oracle</a>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
